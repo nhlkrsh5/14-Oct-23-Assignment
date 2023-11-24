@@ -1,0 +1,37 @@
+div > ul > li > a {
+    color: red
+}
+nav > h2{
+    background-color: aqua;
+    color: white;
+}
+/* nav > p{
+    color: blue;
+} */
+a[href]{
+    text-decoration: none;
+    color: red;
+}
+a[class="active"]{
+    background-color: blue;
+}
+a[target="_self"]{
+    background-color: blue;
+    text-decoration: underline;
+}
+nav p:last-child::after{
+    content: "...";
+}
+li::marker{
+    color: blue;
+}
+nav p:first-child{
+    color: red;
+}
+
+p:nth-child(even)::first-letter{
+    color: aqua;
+    font-size: 25px;
+}
+
+
